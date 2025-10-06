@@ -8,7 +8,7 @@ import { useAppContext } from '../../context/AppContext';
 import toast from 'react-hot-toast';
 
 
-const addShows = () => {
+const AddShows = () => {
 
     const {axios, getToken, user, image_base_url} = useAppContext()
 
@@ -179,4 +179,4 @@ const addShows = () => {
   ) : <Loading />
 }
 
-export default addShows
+export default AddShows
