@@ -2,7 +2,7 @@ import React from 'react'
 import HeroSection from '../components/HeroSection'
 import FeaturedSection from '../components/FeaturedSection'
 import TrailersSection from '../components/TrailersSection'
-import TestPlay from '../components/TestPlay'
+// import TestPlay from '../components/TestPlay'
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       <HeroSection />
       <FeaturedSection />
       <TrailersSection />
-      <TestPlay />
+      {/* <TestPlay /> */}
         
     </>
   )
