@@ -55,7 +55,6 @@ export const addShow = async (req, res) =>{
 
              // Add movie to the database
              movie = await Movie.create(movieDetails);
-
         }
 
         const showsToCreate = [];
@@ -79,12 +78,12 @@ export const addShow = async (req, res) =>{
         //  Trigger Inngest event
          await inngest.send({
             name: "app/show.added",
-             data: {movieTitle: movie.title}
+            data: {movieTitle: movie.title}
          })
 
         res.json({success: true, message: 'Show Added successfully.'})
     } catch (error) {
-         console.error(error);
+        console.error(error);
         res.json({success: false, message: error.message})
         
     }

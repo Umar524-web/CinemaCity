@@ -25,7 +25,7 @@ const TrailersSection = () => {
           height="540"
           src={`https://www.youtube.com/embed/${getYouTubeId(
             currentTrailer.videoUrl
-          )}?autoplay=0&mute=1&controls=1`}
+          )}?autoplay=0&mute=0&controls=1`}
           title={currentTrailer.title}
           className="mx-auto rounded-xl overflow-hidden shadow-lg"
           allow="autoplay; encrypted-media"

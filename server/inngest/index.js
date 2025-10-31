@@ -200,7 +200,7 @@ const sendNewShowNotifications = inngest.createFunction(
                     <h3 style="color: #F84565;">"${movieTitle}"</h3>
                     <p>Visit our website</p>
                     <br/>
-                    <p>Thanks,<br/>QuickShow Team</p>
+                    <p>Thanks,<br/>CinemaCity Team</p>
                 </div>`;
 
                 await sendEmail({
@@ -215,7 +215,6 @@ const sendNewShowNotifications = inngest.createFunction(
     }
 )
 
-
 export const functions = [
     syncUserCreation,
     syncUserDeletion,
@@ -224,5 +223,4 @@ export const functions = [
     sendBookingConfirmationEmail,
     sendShowReminders,
     sendNewShowNotifications
-
 ];

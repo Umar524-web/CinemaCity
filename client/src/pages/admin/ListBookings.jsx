@@ -10,7 +10,6 @@ const ListBookings = () => {
 
   const { axios, getToken, user, image_base_url } = useAppContext()
   
-
   const [bookings, setBookings] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
@@ -31,12 +30,6 @@ const ListBookings = () => {
         getAllBookings();
       }    
     }, [user]);
-
-
-
-
-
-
 
   return !isLoading ? (
     <>

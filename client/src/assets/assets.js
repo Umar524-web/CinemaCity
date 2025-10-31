@@ -18,18 +18,23 @@ export const assets = {
 export const dummyTrailers = [
   {
     id: "1",
-    title: "Inception Trailer",
-    videoUrl: "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    title: "Fast X Trailer",
+    videoUrl: "https://www.youtube.com/watch?v=1fvzVMmARqY"
   },
   {
     id: "2",
-    title: "Interstellar Trailer",
-    videoUrl: "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+    title: "Predator Trailer",
+    videoUrl: "https://www.youtube.com/watch?v=43R9l7EkJwE"
   },
   {
     id: "3",
     title: "The Dark Knight Trailer",
     videoUrl: "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+  },
+  {
+    id: "4",
+    title: "Avatar: Fire and Ash",
+    videoUrl: "https://www.youtube.com/watch?v=nb_fFj_0rq8"
   }
 ]
 const dummyCastsData = [
